@@ -1,0 +1,56 @@
+[
+    {
+        "id" : 1,
+        "name" : "Mouhamed Ba",
+        "age" : 15,
+        "departement":{
+            "nomDepartement":"ILab",
+            "addresse":"Dakar"
+        }
+    },
+    {
+        "id" : 2,
+        "name" : "Abdoulaye Mangane",
+        "age" : 14,
+        "departement":{
+            "nomDepartement":"ILab1",
+            "addresse":"Kounoune"
+        }
+    },
+    {
+        "id" : 3,
+        "name" : "Awa Diop",
+        "age" : 12,
+        "departement":{
+            "nomDepartement":"ILab2",
+            "addresse":"Pikine"
+        }
+    },
+    {
+        "id" : 4,
+        "name" : "Abdoulaye A Sall",
+        "age" : 11,
+        "departement":{
+            "nomDepartement":"ILab3",
+            "addresse":"Keur Massar"
+        }
+    },
+    {
+        "id" : 5,
+        "name" : "Maguette Seck",
+        "age" : 10,
+        "departement":{
+            "nomDepartement":"ILab3",
+            "addresse":"Résidence Mmne"
+        }
+    },
+    {
+        "id" : 6,
+        "name" : "Fama Sarr",
+        "age" : 9,
+        "departement":{
+            "nomDepartement":"ILab4",
+            "addresse":"Guédiawaye"
+        }
+    }
+]

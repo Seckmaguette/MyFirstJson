@@ -14,6 +14,9 @@
 		81438793297EE8B100B96CE4 /* JECODETests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81438792297EE8B100B96CE4 /* JECODETests.swift */; };
 		8143879D297EE8B100B96CE4 /* JECODEUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8143879C297EE8B100B96CE4 /* JECODEUITests.swift */; };
 		8143879F297EE8B100B96CE4 /* JECODEUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8143879E297EE8B100B96CE4 /* JECODEUITestsLaunchTests.swift */; };
+		814387AC297EE8D600B96CE4 /* stage.json in Resources */ = {isa = PBXBuildFile; fileRef = 814387AB297EE8D600B96CE4 /* stage.json */; };
+		814387AF297EE97D00B96CE4 /* model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 814387AE297EE97D00B96CE4 /* model.swift */; };
+		814387B2297EE9EF00B96CE4 /* ViewM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 814387B1297EE9EF00B96CE4 /* ViewM.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		81438798297EE8B100B96CE4 /* JECODEUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JECODEUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8143879C297EE8B100B96CE4 /* JECODEUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JECODEUITests.swift; sourceTree = "<group>"; };
 		8143879E297EE8B100B96CE4 /* JECODEUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JECODEUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		814387AB297EE8D600B96CE4 /* stage.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = stage.json; sourceTree = "<group>"; };
+		814387AE297EE97D00B96CE4 /* model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = model.swift; sourceTree = "<group>"; };
+		814387B1297EE9EF00B96CE4 /* ViewM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewM.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +100,11 @@
 		81438780297EE8B000B96CE4 /* JECODE */ = {
 			isa = PBXGroup;
 			children = (
+				814387B3297EEA4C00B96CE4 /* View */,
+				814387B0297EE9CA00B96CE4 /* ViewModels */,
+				814387AD297EE95000B96CE4 /* Models */,
 				81438781297EE8B000B96CE4 /* JECODEApp.swift */,
-				81438783297EE8B000B96CE4 /* ContentView.swift */,
+				814387AB297EE8D600B96CE4 /* stage.json */,
 				81438785297EE8B100B96CE4 /* Assets.xcassets */,
 				81438787297EE8B100B96CE4 /* Preview Content */,
 			);
@@ -125,6 +134,30 @@
 				8143879E297EE8B100B96CE4 /* JECODEUITestsLaunchTests.swift */,
 			);
 			path = JECODEUITests;
+			sourceTree = "<group>";
+		};
+		814387AD297EE95000B96CE4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				814387AE297EE97D00B96CE4 /* model.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		814387B0297EE9CA00B96CE4 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				814387B1297EE9EF00B96CE4 /* ViewM.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		814387B3297EEA4C00B96CE4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				81438783297EE8B000B96CE4 /* ContentView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,6 +266,7 @@
 			files = (
 				81438789297EE8B100B96CE4 /* Preview Assets.xcassets in Resources */,
 				81438786297EE8B100B96CE4 /* Assets.xcassets in Resources */,
+				814387AC297EE8D600B96CE4 /* stage.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +292,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				81438784297EE8B000B96CE4 /* ContentView.swift in Sources */,
+				814387AF297EE97D00B96CE4 /* model.swift in Sources */,
+				814387B2297EE9EF00B96CE4 /* ViewM.swift in Sources */,
 				81438782297EE8B000B96CE4 /* JECODEApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
